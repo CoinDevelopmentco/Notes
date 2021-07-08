@@ -4,15 +4,26 @@ Github is it own discipline; just make sure to understand what it is, and how to
 Create a Github account
 Create a new repo(don't generate a readme.md file)
 
+***
+Upload a project
 cd into your project folder
 
 git init
 git remote add origin "https/NEW_GITHUB_REPO"
 git add .
 git commit -m "Add Everything"
-git push origin main
+git push -u origin main
 
-to pull files from github
+***
+update a project on github due to local saves.
+within the project folder
+
+git add .
+git commit -m "2nd commit"
+git push -u origin main
+
+***
+Pull files from github
 
 mkdir new_project
 cd new_project
@@ -21,3 +32,6 @@ git clone "https://github.com/CoinDevelopmentco/gittest.git"
 cd gittest
 npm install(re-installs all dependencies)
 npm run start
+
+
+
