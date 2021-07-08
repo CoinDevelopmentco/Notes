@@ -1,12 +1,12 @@
 
 basic command line commands(technically, these "commands" are programs)
 (TAB will finsh typing out the filepath)
-pwd	- Print Working Directory
+pwd	- Print Working Directory(shows where you are in the pc)
 ls	- List
 mkdir 	- Make Directory
 cd	- Change Directory
 cd .. 	- Back out of current directory
-echo 	- Echo
+echo 	- Echo(repeat, commonly used w/ a pipe command)
 cat 	- Concatenate
 rm 	- Remove
 `rm -r FOLDER_NAME` - 	Remove with a flag `-r` means Recursive. Rm all files and folders in this path, not just 1 file.
@@ -19,7 +19,7 @@ code FOLDER_NAME             	- This will open your project folder in Microsoft 
 npx create-react-app APP_NAME 	- Creates a new, blank, fully functional, ReactJS App/website template
 npm run start			- Run within main folder
 
-networking commands
+Networking Commands
 ping IP_ADDRESS/HOST_NAME	- Gives a connection status
 tracert IP_ADDRESS/HOST_NAME	- Shows hops between you and the end device
 nslookup IP_ADDRESS/HOST_NAME	- Links an IP Address and DomainName/HostName
