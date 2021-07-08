@@ -1,0 +1,82 @@
+Day 1
+-------------------------------
+pwd	-	Print Working Directory
+ls	- 	List
+mkdir - Make Directory
+cd	-	Change Directory
+echo - 	Echo
+cat - 	Concatenate
+rm 	-	Remove
+`rm -r FOLDER_NAME` - 	Remove with a flag `-r` means Recursive. Rm all files and folders in this path, not just 1 file.
+Pipe commands below
+ > 	= overwrite
+ >>	= append 
+-------------------------------
+
+Pin Terminal to Dock.
+
+Orient yourself by checking the filepath(PWD) and listing(ls) the files/folders found in your current directory.
+
+Create a new folder/directory(mkdir) and name it code
+
+Change Directories(cd) into the new "code" folder.
+
+now re-orient yourself again by checking the filepath(pwd) and looking/listing(ls) at all the contents in the current folder.(should be empty)
+
+create a new text file with the words "This is EASY" from the command line.
+`echo "This is EASY" > text.txt`
+
+run the `pwd/ls` command again to see if a file named "text.txt" was properly created
+
+now run `cat text.txt` to spit the text file onto the terminal
+
+add a 2nd line onto the text.txt file by again using the `echo` command; but this time pipe the message in the with append(>>) flag
+`echo "....too easy" >> text.txt`
+
+orient yourself once more with `pwd/ls`. now, checkout the contents of text.txt by running the cat command on the text file(cat text.txt)
+
+lets copy this file by "piping" the content of this file into a new file. we can do this by running
+`cat text.txt > copytext.txt`
+
+run the `ls` command to see if the new file was properly created.
+
+remove(rm) the "copytext.txt" file and then run ls to see if it was deleted.
+
+Back out of the code folder by using the .. flag with cd(cd ..)
+
+run pwd/ls to orient yourself. now rm the code folder.(run `rm code`; you should get an error.)
+
+After you get an error; read it over and re-run the command with the -r recursive flag.(rm -r code)
+
+Lastly; run ls to verify it has been removed.
+
+-----------------------------------------------
+Networking commands
+control+c 	-	kills current process
+control+z	-	suspends process
+ping		-	Tests connectivity and latency
+nslookup	-	Links an ip and hostname/domain name(google.com)
+whois		-	gets information based on the IP address you are searching(full ip range, country of origin, business address, contact info)
+
+run the ping command against google.com
+kill the process after a few seconds with `control+c`
+look at all the info you are getting back. This will show a few differnet things
+1. Latency between you and google.
+2. Googles closest server IP address.
+3. Packet loss; how healthy is the connection.
+
+now lets run nslookup against google.com
+You will see a few differnt IP addresses;notice the top set of ips. 1 set has #53 at the end. This is a port number.
+Ports are like doors or windows on a house. Just like a garage car door was built for a car; port 53 on a PC is dedicated to linking IPs and Hostnames(google.com)
+the top IP addresses are telling us the are responsible for the answers we are getting down below
+below you will Name: and Address: this is what we are looking for.
+
+take the IP(Internet Protocol) Address and run whois against it
+`whois xxx.xxx.xxx.xxx`
+now checkout all the info you get here.
+*Company Name
+*Location-Country, state, even street address
+*IP-Range
+*contact info
+*date IP was registered
+

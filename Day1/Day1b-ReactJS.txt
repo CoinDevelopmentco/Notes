@@ -1,0 +1,52 @@
+Day 1 - ReactJS template, Github
+-------------------------------
+install VSC and setup `code` command
+https://code.visualstudio.com/docs/setup/mac
+
+pop open the terminal, orient yourself(pwd/ls): re-create the code folder
+
+change directories into the code folder
+
+create a new reactjs app by running the command `npx create-react-app helloworld`
+-if there are errors we will need to install nodeJS ? i think, will google later
+
+run ls to double check the project was created.
+open this project in the `Microsoft Visual Studios Code` text editor by running the `code` command
+`code helloworld`
+minimize VSC for now
+
+jump into the project folder using cd, run `ls` and checkout the contents
+
+start the app up as a local website on your laptop.
+`npm run start` -within the project folder, right where you are.
+
+congrats! this is your 1st app! its just a template, but its a huge step forward.
+
+we will now start to customize this website with a "hello world" statement.
+
+re-open VSC. poke around at the files for a bit. then go to `SRC > APP.js`
+within here we will delete everything between the top and bottom divs
+<div>
+...
+</div>
+
+Within the HTML div; write "Nikki is a MFin' BOSS"
+
+<div>
+Nikki is a MF'in BOSS
+</div>
+
+-----------
+now change the HTML to show the text within a heading.
+to do this, add <h1></h1> to the text like so
+
+<div>
+	<h1>
+	Nikki is a MF'in BOSS
+	</h1>
+</div>
+
+Fuck yeah, good job!
+Now we can jump into some CSS(styling) and mess with ReactJS components
+
+-----------

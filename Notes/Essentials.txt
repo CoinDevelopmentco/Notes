@@ -1,0 +1,21 @@
+
+software needed
+-linux(MAC, Ubuntu)-Operating System
+-VMWare(Player, workstationPro)-only essential if you have a windows PC(however its still helpful)
+-Microsoft Visual Studios Code(VSC-Text editor +highlights different objects in the code, also shows errors)
+
+pc hardware
+-Case
+-PowerSupply
+-MotherBoard(circuit board that holds everything together)
+-CPU(Central Processing Unit, the brain of the PC)
+-GPU(Graphics Processing Unit[graphics card], not essential)
+-Harddrive / SSD(Solid State Drive)- long term memory(will exist even if the PC is turned off)
+-RAM(Volatile memory, stores program data while PC is on; very quick but expensive. Hardrive > RAM)
+
+OfficeStuff
+-Secret Labs Omega Chair
+-uplift desk or another standup/motorized desk
+-32-34" monitor
+-Mouse/Keyboard/wristrests
+-amazon basics case + laptop backpack

@@ -1,0 +1,30 @@
+Website basics
+
+HTML- Structure/format of the website
+CSS- Colors, font, shadow, animation, formatting within html objects(center text)
+Javascript- makes Functional components(when you hit a button, will you load a new song? or add +1 to a number? this functionality is JS in the background)
+
+CDN - Content Delivery Network(caches and displays a webpage from servers all around the world. helps with latency, server load and security)
+DataCenter - Heavily secured, climate controled, disater proofed place for servers to exist and maintain a 100% uptime
+Cloud Datacenter - Multiple datacenters spread across physical locations for performance and DR(disater recovery[backup]) reasons. not so much for security like a CDN
+
+ReactJS- Framework that combines HTML,CSS, and JS. Free package maintained by Facebook. Instagram,FB,Youtube, and most modern phone apps are built with ReactJS or Angular
+Firebase- Free Google software suit used for: User Authentication, Real Time Database(temp info storage), Longterm databases(to hold user info after logout), website hosting(CDN)
+Solidity- ethereum programing language. Create smart contracts and link them to your webpage. easily setup a payment system, or user authentication. create auction houses, verify NFT ownership(for downloads), kickstarter copycats, gambling
+
+using the command line(terminal) you will install many bits of a project with a package manager known as NPM
+Example: `npm install --save react-audio-player`
+https://www.npmjs.com/package/react-audio-player (found via googling "npm install react-music-player")
+-this free software component will come with a template showing different options/features(autoplay) the music player has(check the link out)
+--usually you can find other peoples examples to cheat off of too
+
+actual code example below
+---------------------------------
+
+import ReactAudioPlayer from 'react-audio-player';
+//...
+<ReactAudioPlayer
+  src="my_audio_file.ogg"
+  autoPlay
+  controls
+/>

@@ -1,0 +1,6 @@
+HomeWork
+Import a new reactJS component(must have its own CSS template)
+customize your webpage to look like a mock website/app
+-display website name at top,+extra points if you can upload an icon/image(SVG file) in the top left
+-must have 2 pictures. 1=src="URL", 2=src="IMPORTED_SELFIE"
+-You're going upload this page as temp website so make sure you feel comfortable with whats being displayed.

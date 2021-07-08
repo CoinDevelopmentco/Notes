@@ -1,0 +1,49 @@
+
+basic command line commands(technically, these "commands" are programs)
+(TAB will finsh typing out the filepath)
+pwd	- Print Working Directory
+ls	- List
+mkdir 	- Make Directory
+cd	- Change Directory
+cd .. 	- Back out of current directory
+echo 	- Echo
+cat 	- Concatenate
+rm 	- Remove
+`rm -r FOLDER_NAME` - 	Remove with a flag `-r` means Recursive. Rm all files and folders in this path, not just 1 file.
+nano	-	comand line text editor(control+x to save ?i think)
+Pipe commands below
+ > 	= overwrite
+ >>	= append 
+
+code FOLDER_NAME             	- This will open your project folder in Microsoft VSC
+npx create-react-app APP_NAME 	- Creates a new, blank, fully functional, ReactJS App/website template
+npm run start			- Run within main folder
+
+networking commands
+ping IP_ADDRESS/HOST_NAME	- Gives a connection status
+tracert IP_ADDRESS/HOST_NAME	- Shows hops between you and the end device
+nslookup IP_ADDRESS/HOST_NAME	- Links an IP Address and DomainName/HostName
+whois IP_ADDRESS/HOST_NAME	- Pulls info on the IP owner. companyName, country, address, contactInfo, ipRange
+
+
+Practice
+-open launchpad, search terminal. after it opens and the icon appears in the bottom Dock. right click(double press) on the terminal icon, >Options>Keep in Dock
+-Figure out where you are in the PC(pwd/ls)
+-Navigate to the Documents folder(cd) *TAB will Finish typing out your path if it exists*
+-Create a new directory(folder) and name it "code"(mkdir)
+-Change Directory to the new path(cd code)
+
+-use nano to create a text document. type anyting and save the doc with `Control+x` Follow prompt and hit Y to save
+-use `ls` to see the new document that was just created. use `pwd` to show your current path.
+-now use the `rm` command to delete(remove) the document. run `ls` to verify the document has been deleted.
+
+-now back out of the current directory you are in by running `cd ..`
+-run `ls` and `pwd` to orient yourself.
+-use the recursive flag with `rm` to delete the "code" directory created earlier.(rm -r code)
+-run `ls` again to verify the folder has been removed.
+
+Networking Commands
+-ping the PCs own Network Interface Card(NIC) to verify your networking hardware is working
+--ping 127.0.0.1 `control+z` to stop(127.0.0.1 is a dedicated IP address used to identify your local PC[every pc has this IP])
+-run whois against google.com to see what country it is located in
+-run `whois 161.181.0.1` and checkout the results: notice there is a range of numbers known as a NetRange and CIDR. this will contain the full IP range of the company you are investigating.
