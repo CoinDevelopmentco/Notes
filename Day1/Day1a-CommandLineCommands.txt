@@ -17,7 +17,7 @@ Pin Terminal to Dock.
 
 Orient yourself by checking the filepath(PWD) and listing(ls) the files/folders found in your current directory.
 
-Create a new folder/directory(mkdir) and name it code
+Create a new folder/directory(mkdir) and name it "code"
 
 Change Directories(cd) into the new "code" folder.
 
@@ -55,7 +55,7 @@ Networking commands
 control+c 	-	kills current process
 control+z	-	suspends process
 ping		-	Tests connectivity and latency
-nslookup	-	Links an ip and hostname/domain name(google.com)
+nslookup	-	Links an ip and hostname/domain name(google.com/xxx.xxx.xxx.xxx)
 whois		-	gets information based on the IP address you are searching(full ip range, country of origin, business address, contact info)
 
 run the ping command against google.com
@@ -67,9 +67,9 @@ look at all the info you are getting back. This will show a few differnet things
 
 now lets run nslookup against google.com
 You will see a few differnt IP addresses;notice the top set of ips. 1 set has #53 at the end. This is a port number.
-Ports are like doors or windows on a house. Just like a garage car door was built for a car; port 53 on a PC is dedicated to linking IPs and Hostnames(google.com)
-the top IP addresses are telling us the are responsible for the answers we are getting down below
-below you will Name: and Address: this is what we are looking for.
+Ports are like doors or windows on a house. Just like a garage car door was built for a car; port 53 on a PC is dedicated to linking IPs and Hostnames(google.com/xxx.xxx.xxx.xxx)
+the top IP addresses are telling us they are responsible for the answers we are getting down below
+below you see will `Name:` and `Address:` this is what we are looking for.
 
 take the IP(Internet Protocol) Address and run whois against it
 `whois xxx.xxx.xxx.xxx`
