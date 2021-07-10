@@ -1,10 +1,11 @@
 
-basic command line commands(technically, these "commands" are programs)
+Basic Linux/BASH("Bourne" Again Shell) Commands(technically, these "commands" are programs)
 (TAB will finsh typing out the filepath)
 ctrl+c          -   Copy
 ctrl+Shift+c    -   Copy from Command Line
 ctrl+v          -   Paste
 ctrl+Shift+v    -   Paste Into the Command Line
+clear           -   Clears Window
 
 pwd	- Print Working Directory(shows where you are in the pc)
 ls	- List
