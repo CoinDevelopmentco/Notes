@@ -1,15 +1,19 @@
 HomeWork
-Create a new ReactJS application
+Create a new ReactJS application/website
 Use the code command to open the project in VSC
 
-Create a topNavigationBar, Body, and extra points if you can create a bottom navigationBNar/contact info section
--make each section an imported ReactJS component/give each section a new CSS sheet
+Create a mock website
+Create a ReactJS component for each section of the website.
+Include a TopNavigationBar, Body, and bottom section for contact info.
+-give each section its own CSS sheet
 
-customize your webpage to look like a mock website/app
--display website name in the top left of the navbar,+extra points if you can upload an icon/image(SVG file)-logo
--Make the body have 3 sections. 1=<h1>Header</h1> 2=<h3>Header3</h3> 3=<p>paragraph</p> :Do this all within a single component called <Body />
+-display the website name in the top left of the navbar,+extra points if you can upload a logo/image(SVG file)
+-Make the body have 3 sections.
+- 1=<h1>Header</h1> 2=<h3>Header3</h3> 3=<p>paragraph</p> :Do this all within a single component called <Body /> that will be imported into the main <App />
 -must have 2 pictures. 1=src="URL", 2=src="IMPORTED_SELFIE"
 -must use differnt colors and fonts throughout the website
+
+-Use 2 different google founts
 
 -make the background color differnet from the Top Navigation bar
 -Create at least 1 link and make it change colors when a mouse hovers over it
