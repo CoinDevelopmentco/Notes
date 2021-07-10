@@ -13,7 +13,7 @@ Include a TopNavigationBar, Body, and bottom section for contact info.
 -must have 2 pictures. 1=src="URL", 2=src="IMPORTED_SELFIE"
 -must use differnt colors and fonts throughout the website
 
--Use 2 different google founts
+-Use 2 different google fonts
 
 -make the background color differnet from the Top Navigation bar
 -Create at least 1 link and make it change colors when a mouse hovers over it
