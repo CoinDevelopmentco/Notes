@@ -1,0 +1,22 @@
+Google Hosting
+
+Website examples:
+https://marketether.web.app/
+
+build project in firebase dashbord: grab the project_id from the settings area
+
+`sudo npm install -g firebase-tools`
+
+`firebase login`
+
+`firebase use PROJECT_ID`
+
+`firebase init`
+-Hosting
+-"build"
+-configure as a single page app
+-do not overwrite HTML file
+
+`firebase deploy`
+-website is now live: check the URLs in the prompt
+
