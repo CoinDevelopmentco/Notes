@@ -18,8 +18,8 @@ echo 	- Echo(repeat, commonly used w/ a pipe command)
 cat 	- Concatenate
 rm 	- Remove
 `rm -r FOLDER_NAME` - 	Remove with a flag `-r` means Recursive. Rm all files and folders in this path, not just 1 file.
-nano	-	comand line text editor(control+x to save ?i think)
-Pipe commands below
+nano	- Comand line text editor(control+x to save ?i think)
+Pipe | commands below
  > 	= overwrite
  >>	= append 
 
@@ -29,6 +29,8 @@ npm run start			- Run within main folder
 localhost:3000          - Webpage for local ReactJS Application
 127.0.0.1:3000          - Webpage for local ReactJS Application
 YOUR_IP_ADDRESS:3000    - Webpage for local ReactJS Application
+ifconfig                - Shows all IP_Addresses linked to your local PC(en0 should be your active NIC;inet xxx.xxx.xxx.xxx[IPV4])
+                            -the "netmask/broadcast" IP_Address shows your IP_Range, not your PCs IP. It should end in xxx.xxx.xxx.255
 
 Networking Commands
 ping IP_ADDRESS/HOST_NAME	- Gives a connection status
@@ -44,7 +46,7 @@ Practice
 -Create a new directory(folder) and name it "code"(mkdir)
 -Change Directory to the new path(cd code)
 
--use nano to create a text document. type anyting and save the doc with `Control+x` Follow prompt and hit Y to save
+-use nano to create a text document. type anyting and save the doc with `command+x` Follow prompt and hit Y to save
 -use `ls` to see the new document that was just created. use `pwd` to show your current path.
 -now use the `rm` command to delete(remove) the document. run `ls` to verify the document has been deleted.
 
@@ -55,6 +57,6 @@ Practice
 
 Networking Commands
 -ping the PCs own Network Interface Card(NIC) to verify your networking hardware is working
---ping 127.0.0.1 `control+c` to stop(127.0.0.1 is a dedicated IP address used to identify your local PC[every pc has this IP])
+--ping 127.0.0.1 `command+c` to stop(127.0.0.1 is a dedicated IP address used to identify your local PC[every pc has this IP])
 -run whois against google.com to see what country it is located in
 -run `whois 161.181.0.1` and checkout the results: notice there is a range of numbers known as a NetRange and CIDR. this will contain the full IP range of the company you are investigating.
