@@ -24,6 +24,9 @@ Pipe commands below
 code FOLDER_NAME             	- This will open your project folder in Microsoft VSC
 npx create-react-app APP_NAME 	- Creates a new, blank, fully functional, ReactJS App/website template
 npm run start			- Run within main folder
+localhost:3000          - Webpage for local ReactJS Application
+127.0.0.1:3000          - Webpage for local ReactJS Application
+YOUR_IP_ADDRESS:3000    - Webpage for local ReactJS Application
 
 Networking Commands
 ping IP_ADDRESS/HOST_NAME	- Gives a connection status
