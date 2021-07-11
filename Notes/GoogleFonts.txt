@@ -1,0 +1,14 @@
+https://fonts.google.com/
+
+pick a font/style and copy the <link> text
+
+place that string within the index.html file;
+<html>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap" rel="stylesheet"> 
+</html>
+
+Underneath "CSS rules to specify families" will be the css variable to define this new font
+
+font-family: 'Roboto', sans-serif;
